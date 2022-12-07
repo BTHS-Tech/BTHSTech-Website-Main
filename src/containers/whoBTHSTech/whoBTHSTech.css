@@ -1,0 +1,160 @@
+.bthsTech__whoBTHSTech_container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+  justify-content: center;
+}
+.bthsTech__whoBTHSTech {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 3s all ease;
+}
+.bthsTech__whoBTHSTech.reveal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.bthsTech__whoBTHSTech_container_vertical-line {
+  width: 1px;
+  height: 100vh;
+
+  background-color: white;
+}
+
+.horizontal-line {
+  width: 200px;
+  height: 1px;
+
+  background-color: white;
+}
+
+.left {
+  transform: translate(-100%, -50%);
+}
+
+.right {
+  transform: translate(1000%, -50%);
+}
+
+.profile_container {
+  width: 400px;
+  height: 200px;
+}
+
+.left_container {
+  transform: translate(-110%, -60%);
+}
+
+.right_container {
+  transform: translate(60%, -60%);
+}
+
+.bthsTech__whoBTHSTech_container_vertical-line_pos1 {
+  transform: translate(-200px, 10vh);
+}
+
+.bthsTech__whoBTHSTech_container_vertical-line_pos2 {
+  transform: translateY(27.5vh);
+}
+
+.bthsTech__whoBTHSTech_container_vertical-line_pos3 {
+  transform: translate(-200px, 50vh);
+}
+
+.bthsTech__whoBTHSTech_container_vertical-line_pos4 {
+  transform: translateY(70vh);
+}
+
+.bthsTech__whoBTHSTech_container_vertical-line_pos5 {
+  transform: translate(-200px, 90vh);
+}
+
+.bthsTech__whoBTHSTech {
+  width: 100%;
+}
+.bthsTech__whoBTHSTech-profiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .bthsTech__whoBTHSTech-profile {
+  width: 500px;
+  height: 300px;
+} */
+@media screen and (max-width: 1050px) {
+  /* .horizontal-line {
+    width: 100px;
+  } */
+  /* .left_container {
+    transform: translate(-70%, -45%);
+  }
+  .right_container {
+    transform: translate(-25%, -45%);
+  }
+  .circle.right {
+    transform: translate(500%, -45%);
+  }
+  .circle.left {
+    transform: translate(-100%, -45%);
+  } */
+  .bthsTech__whoBTHSTech_container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 0;
+    padding: 25px;
+    justify-content: flex-start;
+  }
+  .horizontal-line {
+    width: 10vw;
+    height: 1px;
+
+    background-color: white;
+  }
+  .profile_container.left_container {
+    transform: translate(15vw, -45%);
+  }
+  .profile_container.right_container {
+    transform: translate(15vw, -45%);
+  }
+  .circle.left {
+    transform: translate(10vw, -50%);
+  }
+  .right {
+    transform: translate(10vw, -50%);
+  }
+  .bthsTech__whoBTHSTech_container_vertical-line_pos1 {
+    transform: translateY(0vh);
+  }
+
+  .bthsTech__whoBTHSTech_container_vertical-line_pos2 {
+    transform: translateY(25vh);
+  }
+
+  .bthsTech__whoBTHSTech_container_vertical-line_pos3 {
+    transform: translateY(calc(25vh * 2));
+  }
+
+  .bthsTech__whoBTHSTech_container_vertical-line_pos4 {
+    transform: translateY(calc(25vh * 3));
+  }
+
+  .bthsTech__whoBTHSTech_container_vertical-line_pos5 {
+    transform: translateY(99.7vh);
+  }
+  .bthsTech__profile-content_container_name {
+    font-size: 10px;
+  }
+  .bthsTech__profile-content_container_bio-info {
+    display: none;
+  }
+  .profile_container {
+    width: 300px;
+  }
+}

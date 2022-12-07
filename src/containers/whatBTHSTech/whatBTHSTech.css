@@ -1,0 +1,21 @@
+.bthsTech__whatBTHSTech {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.bthsTech__3d {
+  width: 50vw;
+  height: 60vh;
+}
+.bthsTech__whatBTHSTech .bthsTech__article-content {
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 1050px) {
+  .bthsTech__whatBTHSTech {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .bthsTech__3d {
+    width: 100vw;
+  }
+}

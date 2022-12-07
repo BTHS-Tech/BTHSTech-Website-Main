@@ -1,0 +1,19 @@
+React Tutorial Vid: https://www.youtube.com/watch?v=LMagNcngvcU&t=755s&ab_channel=JavaScriptMastery
+
+Wireframe model : https://wireframe.cc/p6K8lg
+
+We should look into Figma https://www.figma.com/
+
+Great for animating using css: https://animista.net/
+
+Components: 
+
+  Navbar
+  MainTitle
+  ScrollDown
+  WhatAreWe
+  OurMission
+  Roadmap
+  OurTeam
+  ContactUs
+  Footer

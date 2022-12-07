@@ -1,0 +1,10 @@
+.bthsTech__footer {
+  font-family: var(--font-family);
+  color: white;
+  text-align: center;
+  height: fit-content;
+  font-size: 1.5rem;
+}
+.bthsTech__footer-content_container_socials img {
+  margin: 20px;
+}
